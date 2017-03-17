@@ -1,5 +1,5 @@
 /*
- * Copyright ${year} Red Hat, Inc. and/or its affiliates.
+ * Copyright 2017 Red Hat, Inc. and/or its affiliates.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,6 +19,9 @@ package org.kie.scanner.embedder.logger;
 import org.codehaus.plexus.logging.AbstractLogger;
 import org.codehaus.plexus.logging.Logger;
 
+/**
+ * This class is used internally by the LocalLoggerManager and basically acts as a bridge with a LocalLoggerConsumer.
+ */
 public class LocalLogger
         extends AbstractLogger {
 
